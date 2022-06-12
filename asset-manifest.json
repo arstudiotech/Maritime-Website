@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Maritime-Website/static/css/main.b06334a7.css",
+    "main.js": "/Maritime-Website/static/js/main.55bf4742.js",
+    "static/media/ilustrasi-2.png": "/Maritime-Website/static/media/ilustrasi-2.28dc35cec8f50c7e848a.png",
+    "static/media/ilustrasi-3.png": "/Maritime-Website/static/media/ilustrasi-3.b4bdc382f263ff83fca9.png",
+    "static/media/images3.png": "/Maritime-Website/static/media/images3.70b49a11bf33bad4b213.png",
+    "static/media/images2.png": "/Maritime-Website/static/media/images2.b4b96cce6a551377462c.png",
+    "static/media/images1.png": "/Maritime-Website/static/media/images1.a3155df43e344fd0406b.png",
+    "static/media/ilustrasi-1.png": "/Maritime-Website/static/media/ilustrasi-1.947916b89a76a09ef549.png",
+    "static/media/logo.png": "/Maritime-Website/static/media/logo.1b437756d1556f37850a.png",
+    "static/media/logo-3.png": "/Maritime-Website/static/media/logo-3.5fe433cc71d5de375ad7.png",
+    "index.html": "/Maritime-Website/index.html",
+    "main.b06334a7.css.map": "/Maritime-Website/static/css/main.b06334a7.css.map",
+    "main.55bf4742.js.map": "/Maritime-Website/static/js/main.55bf4742.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b06334a7.css",
+    "static/js/main.55bf4742.js"
+  ]
+}
