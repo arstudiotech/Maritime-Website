@@ -1,0 +1,119 @@
+.app__about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+}
+.app__about-info {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: flex-start;
+}
+.app__about-info .app__wrapper_img img {
+    width: 80%;
+}
+.app__about-info .app__wrapper_info {
+    margin-top: 2rem;
+}
+.app__about-info .app__wrapper_info p {
+    width: 80%;
+}
+.app__about-detail {
+    display: flex;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    margin-left: 2rem;
+}
+.app__about-detail .detail {
+    padding:.3rem 1rem;
+    text-align: center;
+    background: #fff;
+}
+.app__about-detail .detail p {
+    font-family: var(--font-base);
+    font-weight: 500;
+    font-size: 24px;
+    background: none;
+}
+.app__about-detail .detail span {
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--color-blue);
+    background: none;
+}
+.border-right {
+    border-right: 3px solid var(--color-blue);
+}
+
+@media screen and (max-width: 1150px) {
+    .app__about {
+        align-items: center;
+    }
+    .app__about-info {
+        flex-direction: column;
+    }
+    .app__about-info .app__wrapper_info{
+        top: 0;
+        right: 0;
+        position: absolute;
+        align-items: center;
+        text-align: center;
+    }
+    .app__about-info .app__wrapper_img {
+        margin-top: 8rem;
+    }
+    .app__about-detail {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        margin-left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 650px) {
+    .app__about-detail {
+        margin-top: 2rem;
+        flex-direction: column;
+        width: 100%;
+    }
+    .app__about-info .app__wrapper_info {
+        margin-top: 0;
+    }
+    .app__about-info .app__wrapper_img {
+        margin-top: 6rem;
+    }
+    .app__about-detail .detail {
+        background: none;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        border-bottom: 2px solid var(--color-blue);
+        padding: 1rem 4rem;
+        align-items: center;
+    }
+    .app__about-detail .detail p {
+        font-family: var(--font-base);
+        font-weight: 400;
+        font-size: 16px;
+        background: none;
+    }
+    .app__about-detail .detail span {
+        font-family: var(--font-base);
+        font-weight: 600;
+        font-size: 18px;
+        color: var(--color-blue);
+        background: #BFDBF4;
+        width: 64px;
+        height: 45px;
+        padding-top: 10px;
+        border-radius: 6px;
+    }
+    .border-right {
+        border-right: none;
+    }
+}
+

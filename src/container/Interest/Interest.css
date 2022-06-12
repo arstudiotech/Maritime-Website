@@ -1,0 +1,123 @@
+.app__interest {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.app__interest .p__interest{
+    width: 70%;
+}
+.app__interest-content {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+    margin-top: 2rem;
+}
+.interest-content {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 2.2rem;
+    margin: 1rem 1.5rem;
+    width: 379px;
+    height: 450px;
+    position: relative;
+    border-radius: 12px;
+}
+.interest-content div {
+    background: none;
+    margin-top: 3rem;
+}
+.interest-content h1 {
+    font-family: var(--font-base);
+    color: var(--color-black);
+    font-weight: 600;
+    font-size: 28px;
+    background: none;
+    margin-top: 1rem;
+}
+.interest-content p {
+    background: none;
+    line-height: 180%;
+}
+.app__interest .icon-1 {
+    background: #FF9F1C;
+    border-radius: 8px;
+    padding: 5px;
+    position: absolute;
+}
+.app__interest .icon-2 {
+    background: #357FC2;
+    border-radius: 8px;
+    padding: 5px;
+    position: absolute;
+}
+.app__interest .icon-3 {
+    background: #DBF9ED;
+    border-radius: 8px;
+    padding: 5px;
+    position: absolute;
+}
+.app__interest a{
+    bottom: 15%;
+    position: absolute;
+    background: none;
+    font-family: var(--font-base);
+    font-weight: 500;
+    color: var(--color-blue);
+    font-size: 18px;
+}
+.app__interest a:hover {
+    color: rgba(53, 127, 194, .5);
+}
+
+
+
+@media screen and (max-width: 1150px) {
+    .app__interest-content {
+        flex-direction: column;
+    }
+    .interest-content {
+        flex-direction: row;
+        background: #fff;
+        padding: 2rem 3rem;
+        margin: 1rem 1.5rem;
+        width: 100%;
+        height: 280px;
+        position: relative;
+        border-radius: 12px;
+    }
+    .interest-content div {
+        margin-left: 5rem;
+        margin-top: 0;
+    }
+    .interest-content h1 {
+        margin-top: 0;
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .interest-content {
+        height: 260px;
+    }
+    .app__interest a {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .interest-content {
+        height: 270px;
+    }
+    .interest-content h1 {
+        margin-top: 0;
+        font-size: 18px;
+    }
+    .interest-content {
+        padding: 1rem 1.5rem;
+        margin: .5rem 1rem;
+    }
+}

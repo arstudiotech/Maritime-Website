@@ -1,0 +1,142 @@
+.section__padding {
+  padding: 2rem 4rem;
+}
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+.app__wrapper_info {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.app__wrapper_img {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+.app__wrapper_img-reverse {
+  justify-content: flex-start;
+  margin-right: 2rem;
+}
+.app__wrapper_img img {
+  width: 80%;
+}
+.custom__button {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  font-family: var(--font-base);
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.custom__button:hover {
+  background: none;
+  border: 1px solid var(--color-blue);
+  color: var(--color-black);
+}
+.custom__button-2 {
+  background: none;
+  color: var(--color-black);
+  font-family: var(--font-base);
+  font-weight: 600;
+  border: 1px solid var(--color-blue);
+  font-size: 20px;
+  padding: .8rem 2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 2rem;
+  transition: all ease 0.5s;
+}
+.custom__button-2:hover {
+  background: var(--color-blue);
+  border: none;
+  color: #fff;
+
+}
+.p__manrope {
+  font-family: var(--font-base);
+  color: var(--color-black);
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 1rem;
+}
+.h1__manrope {
+  font-family: var(--font-base);
+  color: var(--color-black);
+  font-weight: 800;
+  font-size: 60px;
+}
+
+@media screen and (min-width: 2000px) {
+  .custom__button,.custom__button-2
+  .p__manrope {
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  .h1__manrope {
+    font-size: 150px;
+    line-height: 210px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app__wrapper {
+    flex-direction: column;
+  }
+
+  .app__wrapper_img {
+    margin: 5rem 0 0 0;
+  }
+
+  .app__wrapper_img img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .section__padding {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+  .p__manrope {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .p__manrope{
+    font-size: 12px;
+  }
+  .h1__manrope {
+    font-size: 24px;
+    line-height: 180%;
+  }
+  .custom__button,.custom__button-2 {
+    font-size: 12px;
+  }
+}

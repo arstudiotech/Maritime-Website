@@ -1,0 +1,47 @@
+.app__project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.app__project_content {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    width: 100%;
+}
+.project-container {
+    width: 100%;
+    height: 590px;
+    margin: 2rem;
+}
+.project-container img {
+    width: 100%;
+}
+.project-container h1 {
+    font-family: var(--font-base);
+    color: var(--color-black);
+    font-weight: 600;
+    font-size: 28px;
+}
+.project-container p {
+    width: 100%;
+}
+.project-container span {
+    color: var(--color-blue);
+}
+.project-container span:hover {
+    color: rgba(53, 127, 194, .5);
+}
+
+@media screen and (max-width: 1150px) {
+    .app__project_content {
+        flex-direction: column;
+    }
+    .project-container {
+        margin: 0;
+        height: 100%;
+        margin-top: 5rem;
+    }
+}
