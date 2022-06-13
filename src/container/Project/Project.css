@@ -38,6 +38,7 @@
 @media screen and (max-width: 1150px) {
     .app__project_content {
         flex-direction: column;
+        margin-top: 0;
     }
     .project-container {
         margin: 0;

@@ -55,10 +55,16 @@
     .app__home-content {
         flex-direction: column;
     }
+    .h1__app-home {
+        font-size: 40px;
+    }
 }
 @media screen and (max-width: 850px) {
     .app__home {
         padding: 4rem;
+    }
+    .h1__app-home {
+        font-size: 30px;
     }
 }
 @media screen and (max-width: 650px) {

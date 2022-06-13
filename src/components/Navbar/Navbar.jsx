@@ -14,16 +14,18 @@ const Navbar = () => {
       <div className='app__navbar-logo'>
         <img src={images.logo} alt="app logo" />
       </div>
-      <ul className='app__navbar-links'>
-        <li className='p__manrope'><a href="#home">Home</a></li>
-        <li className='p__manrope'><a href="#home">About Us</a></li>
-        <li className='p__manrope'><a href="#home">OurInterest</a></li>
-        <li className='p__manrope'><a href="#home">Values</a></li>
-        <li className='p__manrope'><a href="#home">Project</a></li>
-        <li className='p__manrope'><a href="#home">Blogs</a></li>
-      </ul>
+      <div className='app__navbar-links'>
+        <ul>
+          <li className='p__manrope'><a href="#home">Home</a></li>
+          <li className='p__manrope'><a href="#home">About</a></li>
+          <li className='p__manrope'><a href="#home">Interest</a></li>
+          <li className='p__manrope'><a href="#home">Values</a></li>
+          <li className='p__manrope'><a href="#home">Project</a></li>
+          <li className='p__manrope'><a href="#home">Blogs</a></li>
+        </ul>
+      </div>
       <div className='app__navbar-login'>
-        <a href="#login" className='p__manrope login'>Log In</a>
+        <a href="#login" className='p__manrope login'>Login</a>
         <a href="#login" className='p__manrope register'>Register</a>
         <a href="#settting" className='setting-icon'><AiFillSetting color='rgba(0, 0, 0, 0.54)' fontSize={29} /></a>
       </div>
